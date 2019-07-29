@@ -1,0 +1,41 @@
+{
+  "name": "node-api-boilerplate",
+  "version": "1.0.0",
+  "description": "REST API Blank Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bootstrap.js",
+    "prod": "nodemon bootstrap.js --prod",
+    "qa": "nodemon bootstrap.js --qa",
+    "staging": "nodemon bootstrap.js --staging"
+  },
+  "keywords": [
+    "node",
+    "rest",
+    "api"
+  ],
+  "author": "Jayanta Patra",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "3.0.6",
+    "body-parser": "^1.18.2",
+    "chalk": "^2.4.2",
+    "express": "^4.16.2",
+    "firebase-admin": "^8.2.0",
+    "jsonwebtoken": "^8.1.1",
+    "minimist": "^1.2.0",
+    "mongoose": "^5.4.2",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.0",
+    "node-cron": "^2.0.3",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "request-promise": "^4.2.4",
+    "socket.io": "^2.2.0",
+    "twilio": "^3.32.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}

@@ -1,0 +1,30 @@
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+# npm
+node_modules
+package-lock.json
+cred
+*.log
+*.gz
+
+# ENV
+environment/env-dev.js
+environment/env-prod.js
+environment/env-qa.js
+environment/env-staging.js
+
+
+# VSCODE
+.vscode
